@@ -1,0 +1,23 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: RATING-SERVICE
+  data:
+    mongodb:
+      database: microservices
+      uri: mongodb://localhost:27017
+server:
+  port: 8083
+
+
+okta:
+  oauth2:
+    issuer: https://dev-61848187.okta.com/oauth2/default
+    audience: api://default
