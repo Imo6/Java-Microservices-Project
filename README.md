@@ -1,7 +1,7 @@
 
 # Spring Boot Micrsoservices API
 
-I developed a RESTful API for a hotel rating application using Microservices, Spring Boot, MySQL, MongoDB, and PostgreSQL and MongoDB. The API enables users to provide ratings for hotels.
+I developed a RESTful API for a hotel rating application using Microservices, Spring Boot, MySQL,  PostgreSQL and MongoDB. The API enables users to provide ratings for hotels.
 ## Prerequisites
 
  - [SpringToolSuit4 or IntelliJ IDEA installed in your m/c  (latest version)](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
